@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class MapController {
     @CrossOrigin
     @GetMapping("/map")
-    public String users() {
-        return "Yellowfin Map";
+    public String map() {
+
+        return "Users ";
     }
 }
