@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MapController {
     @CrossOrigin
-    @GetMapping("/map")
+    @GetMapping("/")
     public String map() {
 
-        return "Users ";
+        return "{}";
     }
 }

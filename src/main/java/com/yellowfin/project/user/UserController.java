@@ -9,7 +9,7 @@ public class UserController {
     public String users() {
         return "{" +
                 " \"status\": \"200\";" +
-                "\"users\":[ \"Monica Amico\" ]}";
+                "\"users\":[ \"Monica Amico\"]}";
     }
 
     @CrossOrigin
